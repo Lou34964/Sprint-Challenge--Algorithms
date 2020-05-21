@@ -19,7 +19,7 @@ I'd use a binary search to find the best floor to start on. get a total count of
 		if egg cracks move down:
 			start = start // 2
 		elif egg doesn't crack move up:
-			start = 
+			start = floor
 			end = start + 1
 		elif egg doesn't crack anymore:
 			you found the highest floor
